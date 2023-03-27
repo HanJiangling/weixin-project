@@ -1,0 +1,15 @@
+1.导入laravel6.sqlmysql文件
+2.mogondb配置后台源码
+http-vhosts.conf配置参考
+<VirtualHost *:80>
+  ServerName www.wxxz.com
+  ServerAlias localhost
+  DocumentRoot "${INSTALL_DIR}/www/wxxz/public"
+  <Directory "${INSTALL_DIR}/www/">
+    Options +Indexes +Includes +FollowSymLinks +MultiViews
+    AllowOverride All
+    Require local
+  </Directory>
+</VirtualHost>
+3.安装node_modules依赖包
+4.使用时启动redis（文件地址打开终端，启动命令redis-server.exe redis.windows.conf）

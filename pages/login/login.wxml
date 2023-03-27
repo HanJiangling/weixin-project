@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+
+<view class="main">
+  <input placeholder="请输入手机号" type="text" bindinput="getphone" />
+  <input placeholder="请输入密码" type="password" bindinput="getpass" />
+  <view class="btntab">
+    <button bindtap="btnindex">登录</button>
+    <!-- <view>
+      没有账号，点击注册
+    </view> -->
+  </view>
+
+  <image src="/images/slogan.png"></image>
+</view>

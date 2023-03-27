@@ -1,0 +1,26 @@
+<view class="header">
+    <view></view>
+    <text>我的预定历史</text>
+    <text bindtap="loginout">| 退出登录</text>
+    <text bindtap="updatepass">| 修改登录密码</text>
+</view>
+
+<view class="centent">
+    <view class="centent-title">
+        <view>座位类型</view>
+        <view>座位号</view>
+        <view>开始时间</view>
+        <view>结束时间</view>
+        <view>预约操作</view>
+    </view>
+   
+    <block wx:for="{{yuyue}}" wx:key="index">
+        <view class="centent-n">
+            <view>{{item.type}}</view>
+            <view>{{item.zw}}</view>
+            <view>{{item.starttime}}</view>
+            <view>{{item.endtime}}</view>
+            <view bindtap="delyuyue" data-id="{{item.id}}" >取消</view>
+    </view>
+    </block>
+</view>

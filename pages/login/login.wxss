@@ -1,0 +1,43 @@
+/* pages/login/login.wxss */
+
+page {
+  background: #3894FF;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300rpx;
+
+}
+
+input {
+  margin-top: 30rpx;
+  width: 380rpx;
+  height: 60rpx;
+  border: 1px solid rgb(255, 255, 255);
+  background: #fff;
+}
+.btntab{
+  width: 380rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.btntab view{
+  font-size: 13rpx;
+}
+/* button {
+  width: 11rpx;
+  font-size: small;
+  /* background-color: #AE2222; */
+  /* color:#fff; */
+/* } */ 
+
+image {
+  /* width: 200rpx; */
+  margin-top: 200rpx;
+  width: 454rpx;
+  height: 164rpx;
+}

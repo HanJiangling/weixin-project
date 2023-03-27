@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "选座系统",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "座位预定",
+        "iconPath": "./images/nz1.png",
+        "selectedIconPath": "./images/nz2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "./images/gr1.png",
+        "selectedIconPath": "./images/gr2.png"
+      }
+    ],
+    "backgroundColor":"#3894FF",
+    "color":"#000",
+    "selectedColor":"#fff"
+
+
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  }
+}

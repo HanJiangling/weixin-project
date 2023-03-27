@@ -1,0 +1,1 @@
+<a href="http://www.laravel6ss.com/jihuo?id={{$id}}">测试邮件发送视图2</a>

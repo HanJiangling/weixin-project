@@ -1,0 +1,1 @@
+<a href="http://www.laravel6ss.com/jihuo?id={{$id}}">激活用户</a>

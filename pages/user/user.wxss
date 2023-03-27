@@ -1,0 +1,67 @@
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #343434;
+}
+.header view{
+    width: 5px;
+    height: 20px;
+    background-color: #3894FF;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.header text{
+    float: left;
+    margin-left: 5px;
+}
+.centent{
+    width: 100%;
+    height: auto;
+}
+.centent-title{
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+}
+.centent-title view{
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+.centent-title view:nth-child(1),.centent-title view:nth-child(2){
+    /* width: 20%; */
+    height: 50px;
+}
+.centent-title view:nth-child(3),.centent-title view:nth-child(4){
+    /* width: 20%; */
+    height: 50px;
+}
+.centent-n{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content:space-around;
+}
+.centent-n view{
+    /* width: 15%; */
+    height: 50px;
+    /* float: left; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 9px;
+}
+.centent-n view:nth-child(3),.centent-n view:nth-child(4){
+    /* width: 25%; */
+}
+.btn{
+    width:30px;
+    height:30px;
+    font-size:9px
+}
